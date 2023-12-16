@@ -23,8 +23,8 @@ body {
 }
 
 .flex-item {
-    background: #a9a9ff;
-    border: 1pt solid #8888d3;
+    background: #7e7efa;
+    border: 1.3pt solid #adadec;
     width: 12px;
     transition: 0.1s all ease;
 }
@@ -65,7 +65,7 @@ body {
     -webkit-appearance: none;
     width: 200px;
     height: 2px;
-    background-color: #a9a9ff;
+    background-color: #27272a;
 
     position: absolute;
     top: 50%;
@@ -74,8 +74,8 @@ body {
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
-    background-color: #eee;
-    border: 2px solid #1f4068;
+    background-color: #7e7efa;
+    border: 2px solid #2a2c2f;
     border-radius: 50%;
     outline: none;
 }
