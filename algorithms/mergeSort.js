@@ -10,7 +10,7 @@ async function merge(ele, low, mid, high){
             return;
         }
         await delayTime(delay);
-        ele[low + i].style.background = 'orange';
+        ele[low + i].style.background = 'yellow';
         left[i] = ele[low + i].style.height;
     }
     for(let i = 0; i < n2; i++){
@@ -18,7 +18,7 @@ async function merge(ele, low, mid, high){
             return;
         }
         await delayTime(delay);
-        ele[mid + 1 + i].style.background = 'cyan';
+        ele[mid + 1 + i].style.background = 'red';
         right[i] = ele[mid + 1 + i].style.height;
     }
     await delayTime(delay);

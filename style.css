@@ -23,7 +23,7 @@ body {
 }
 
 .flex-item {
-    background: #7e7efa;
+    background: #4949ef;
     border: 1.3pt solid #adadec;
     width: 12px;
     transition: 0.1s all ease;
@@ -74,7 +74,7 @@ body {
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
-    background-color: #7e7efa;
+    background-color: #4242ef;
     border: 2px solid #2a2c2f;
     border-radius: 50%;
     outline: none;

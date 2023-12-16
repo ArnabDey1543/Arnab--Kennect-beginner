@@ -18,7 +18,7 @@ async function insertion(){
             if(hasPressedStop==true){
                 return;
             }
-            ele[j].style.background = 'blue';
+            ele[j].style.background = 'yellow';
             ele[j + 1].style.height = ele[j].style.height;
             j--;
 

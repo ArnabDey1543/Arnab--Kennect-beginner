@@ -18,7 +18,7 @@ async function heapSort(arr, n) {
         var temp = arr[0];
         arr[0] = arr[i];
         arr[i] = temp;
-        arr[0].style.background = 'cyan';
+        arr[0].style.background = 'Yellow';
         arr[i].style.background = 'green';
         swap(arr[0], arr[i]);
         await delayTime(delay);
